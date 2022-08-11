@@ -2,8 +2,8 @@ import axios from 'axios';
 
 const endpoint = "https://checkmk.8x8.com/CHECKMK_VIEW/api/v1/domain-types/downtime/collections/host/";
 const token = "";
-// const username = ""
-// const password = ""
+const username = ""
+const password = ""
 
 // const config = {
 //     headers: {
@@ -41,8 +41,8 @@ let _data = {
 //     });
 // }
 
-const username = ''
-const password = ''
+// const username = ''
+// const password = ''
 const session_url = 'https://inventory.8x8.com/api/1.0/devices/';
 
 var config = {
